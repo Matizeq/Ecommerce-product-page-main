@@ -94,6 +94,7 @@ const productImage = document.querySelector(".product--image");
 let currentImageIndex = 1;
 
 // Mobile gallery
+
 arrows.forEach(function (item) {
   item.addEventListener("click", function () {
     if (item.classList.contains("next")) {
